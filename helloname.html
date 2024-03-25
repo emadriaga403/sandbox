@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GREETING</title>
+    <link rel="stylesheet" href="https://unpkg.com/simpledotcss/simple.min.css">
+    <link rel="stylesheet" href="helloname.css">
+    <script src="helloworld.js" defer></script>
+</head>
+<body>
+    <h1 id="heading">GREETING</h1>
+
+    <form>
+        <label for="name">First Person:</label>
+        <input type="text" id="name" name="name">
+        <label for="secondName">Second Person:</label>
+        <input type="text" id="secondName" name="secondName">
+        <div>
+            <button type="button" id="greetButton">Greet Me</button>
+            <button type="button" id="spanishButton">(in Spanish)</button>
+            <div>
+            <button type="button" id="yellButton">(if im mad at you)</button>
+            <button type="button" id="meanButton">(if im really mad at you)</button>
+            </div>
+        </div>
+        <button type="reset" id="resetButton">Reset</button>
+    </form>
+    <p id="message"></p>
+    <div>
+        <button id="hideButton" type="button">hide</button>
+        <button id="showButton" type="button">show</button>
+    </div>
+</body>
+</html>
